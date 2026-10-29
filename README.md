@@ -26,7 +26,6 @@
     <h3><a href="https://train.sageflow.online/" target="_blank" rel="noopener noreferrer">面试训练中心 <span aria-hidden="true">↗</span></a></h3>
     <p class="work-label">在线训练台</p><p class="work-description">把分散的面试准备组织成训练工作台，提供机试题、口述题、项目答辩等训练入口，以及题库检索、历史与统计界面。</p>
     <ul class="work-highlights"><li>按训练类型组织题目</li><li>错题 / 到期复习入口</li><li>从阅读知识到动手训练</li></ul>
-    
     <p class="work-note">训练操作会生成答题记录，建议先浏览题库，再开始训练。</p>
     <a class="work-action" href="https://train.sageflow.online/" target="_blank" rel="noopener noreferrer"><span>打开训练台</span><span aria-hidden="true">↗</span></a>
     <p class="work-host">train.sageflow.online</p>
