@@ -9,6 +9,7 @@
 <p><samp>GUOYONGZHENG</samp> · 安阳工学院 · 计算机科学与技术</p>
 <p>我是郭永争，做了 8 年 Java 后端。走过支付、清结算、电子签约和财税业务，也在探索 AI 应用。</p>
 <p>我更在意系统怎么落地，以及出了问题怎么查。</p>
+<p>完整版工程主页：<a href="https://guozhengit.github.io/guozhengit/" rel="noreferrer">guozhengit.github.io/guozhengit</a></p>
 
 <section id="evidence" class="content-section showcase" aria-labelledby="work-title">
   <div class="section-heading"><div><div class="section-kicker"><span>01 /</span> SELECTED WORK / CONNECTED SITES</div><h2 id="work-title">成果与在线作品</h2></div><p class="section-aside">读技术内容，体验个人应用，了解项目经历。</p></div>
@@ -77,4 +78,4 @@
 <div class="ai-practice"><article><span class="practice-status">已有实践</span><h4>本地模型实验</h4><p>已用 LM Studio 部署本地模型，并具备多家云端模型的接入条件。</p></article><article><span class="practice-status">深化方向</span><h4>Agent 工程化</h4><p>把任务编排、工具接入、权限控制和外部验证连成完整工作流。</p></article><article><span class="practice-status">计划验证</span><h4>个人 AI Ops 实验</h4><p>围绕故障诊断、多模型路由和基础设施检查，逐步搭建可复现的实验。</p></article></div>
 <hr />
 <p><strong>郭永争</strong> · 代码之外，还有业务。</p>
-<p><a href="https://github.com/guozhengit" rel="noreferrer">GitHub ↗</a></p>
+<p><a href="https://guozhengit.github.io/guozhengit/" rel="noreferrer">工程主页 ↗</a> <a href="https://github.com/guozhengit" rel="noreferrer">GitHub ↗</a></p>
