@@ -17,6 +17,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Generate stats cards
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: guozhengit
+        run: python3 tools/generate_stats.py
+
       - name: Generate 3D contrib
         uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:

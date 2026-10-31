@@ -76,8 +76,15 @@
 
 ## GitHub
 
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=guozhengit&show_icons=true&hide_border=true&bg_color=00000000&title_color=c2ef82&text_color=a0aaa1&icon_color=c2ef82" alt="GitHub stats" />
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=guozhengit&layout=compact&hide_border=true&bg_color=00000000&title_color=c2ef82&text_color=a0aaa1" alt="Top languages" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg" />
+  <img src="assets/stats-light.svg" width="100%" alt="GitHub stats — followers, stars, forks, repos, contributions" />
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/langs-dark.svg" />
+  <img src="assets/langs-light.svg" width="100%" alt="Top languages by bytes across owned repos" />
+</picture>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="profile-3d-contrib/profile-night-rainbow.svg" />
