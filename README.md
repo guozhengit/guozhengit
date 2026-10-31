@@ -8,7 +8,10 @@
   <img src="assets/roles-light.svg" width="100%" alt="Java 后端 8 年 · 支付/清结算/电子签约 · AI Ops 与 Agent 工程" />
 </picture>
 
-<img src="https://readme-typing-svg.demolab.com?font=Segoe+UI&weight=600&size=22&duration=3000&pause=1200&color=C2EF82&center=false&vCenter=true&width=640&height=60&lines=%E6%8A%8A%E4%B8%9A%E5%8A%A1%E5%81%9A%E7%A8%B3%E3%80%82%E6%8A%8A%E9%97%AE%E9%A2%98%E8%AE%B2%E6%B8%85%E3%80%82&lines=%E6%94%AF%E4%BB%98%20%C2%B7%20%E6%B8%85%E7%BB%93%E7%AE%97%20%C2%B7%20%E7%94%B5%E5%AD%90%E7%AD%BE%E7%BA%A6%20%C2%B7%20%E8%B4%A2%E7%A8%8E&lines=%E5%9C%A8%E7%94%9F%E4%BA%A7%E7%8E%AF%E5%A2%83%E9%87%8C%E9%AA%8C%E8%AF%81%20AI%20Ops" width="640" alt="把业务做稳。把问题讲清。" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Segoe+UI&weight=600&size=22&duration=3000&pause=1200&center=false&vCenter=true&width=640&height=60&lines=%E6%8A%8A%E4%B8%9A%E5%8A%A1%E5%81%9A%E7%A8%B3%E3%80%82%E6%8A%8A%E9%97%AE%E9%A2%98%E8%AE%B2%E6%B8%85%E3%80%82&lines=%E6%94%AF%E4%BB%98%20%C2%B7%20%E6%B8%85%E7%BB%93%E7%AE%97%20%C2%B7%20%E7%94%B5%E5%AD%90%E7%AD%BE%E7%BA%A6%20%C2%B7%20%E8%B4%A2%E7%A8%8E&lines=%E5%9C%A8%E7%94%9F%E4%BA%A7%E7%8E%AF%E5%A2%83%E9%87%8C%E9%AA%8C%E8%AF%81%20AI%20Ops&color=C2EF82" />
+  <img src="https://readme-typing-svg.demolab.com?font=Segoe+UI&weight=600&size=22&duration=3000&pause=1200&center=false&vCenter=true&width=640&height=60&lines=%E6%8A%8A%E4%B8%9A%E5%8A%A1%E5%81%9A%E7%A8%B3%E3%80%82%E6%8A%8A%E9%97%AE%E9%A2%98%E8%AE%B2%E6%B8%85%E3%80%82&lines=%E6%94%AF%E4%BB%98%20%C2%B7%20%E6%B8%85%E7%BB%93%E7%AE%97%20%C2%B7%20%E7%94%B5%E5%AD%90%E7%AD%BE%E7%BA%A6%20%C2%B7%20%E8%B4%A2%E7%A8%8E&lines=%E5%9C%A8%E7%94%9F%E4%BA%A7%E7%8E%AF%E5%A2%83%E9%87%8C%E9%AA%8C%E8%AF%81%20AI%20Ops&color=4d7c1e" width="640" alt="把业务做稳。把问题讲清。" />
+</picture>
 
 > 8 年 Java 后端 · 支付、清结算、电子签约、财税业务 · 别人演示 AI 能做什么，我证明 AI 在生产里怎么不出事、怎么算得清账
 >
