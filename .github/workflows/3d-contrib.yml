@@ -1,21 +1,27 @@
-name: Generate 3D contribution graph
+name: Refresh profile stats & 3D graph
 
 on:
   schedule:
-    - cron: '17 18 * * *'   # 北京 02:17 主更新 (错开整点高峰, 定时任务高峰期会延迟)
-    - cron: '17 14 * * *'   # 北京 22:17 二次刷新 (白天的提交当天可见)
+    - cron: '17 18 * * *'   # 北京 02:17 主更新 (错开整点高峰)
+    - cron: '17 14 * * *'   # 北京 22:17 二次刷新 (白天提交当天可见)
   workflow_dispatch:
   push:
     branches: [main]
     paths-ignore:
       - 'profile-3d-contrib/**'
+      - '.github/**'
 
 permissions:
   contents: write
 
+concurrency:
+  group: profile-refresh
+  cancel-in-progress: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
       - name: Generate stats cards
@@ -23,7 +29,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: guozhengit
         run: python3 tools/generate_stats.py
-
       - name: Generate 3D contrib
         uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
