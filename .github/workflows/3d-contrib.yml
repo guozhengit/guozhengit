@@ -2,7 +2,8 @@ name: Generate 3D contribution graph
 
 on:
   schedule:
-    - cron: '0 18 * * *'   # UTC 18:00 = 北京时间次日 02:00
+    - cron: '17 18 * * *'   # 北京 02:17 主更新 (错开整点高峰, 定时任务高峰期会延迟)
+    - cron: '17 14 * * *'   # 北京 22:17 二次刷新 (白天的提交当天可见)
   workflow_dispatch:
   push:
     branches: [main]
@@ -31,4 +32,4 @@ jobs:
       - name: Commit graphs
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: 'chore: update 3d contribution graph'
+          commit_message: 'chore: refresh profile stats & 3d graph'
